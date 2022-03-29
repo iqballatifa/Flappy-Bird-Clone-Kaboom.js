@@ -4,7 +4,7 @@ kaboom({
 });
 
 function loadAssets() {
-  loadRoot("/images/");
+  loadRoot("https://raw.githubusercontent.com/iqballatifa/Flappy-Bird-Clone-Kaboom.js/master/images/");
   loadSprite("bg-day", "background-day.png");
   loadSprite("bg-night", "background-night.png");
   loadSprite("base", "base.png");
@@ -25,7 +25,7 @@ function loadAssets() {
     loadSprite(`${i}`, `${i}.png`);
   };
   
-  loadRoot("/audio/");
+  loadRoot("https://raw.githubusercontent.com/iqballatifa/Flappy-Bird-Clone-Kaboom.js/master/audio/");
   loadSound("die", "die.wav");
   loadSound("hit", "hit.wav");
   loadSound("point", "point.wav");
